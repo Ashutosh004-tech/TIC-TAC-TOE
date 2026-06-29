@@ -1,25 +1,24 @@
-import { useState } from "react";
-import "./Square.css"
+import Cell from "./Cell";
+import "./Square.css";
 
 export default function Square() {
-  const [move, setMove] = useState()
   return (
     <>
       <div className="main">
         <div className="row">
-          <div></div>
-          <div></div>
-          <div></div>
+          <Cell />
+          <Cell />
+          <Cell />
         </div>
         <div className="row">
-          <div></div>
-          <div></div>
-          <div></div>
+          <Cell />
+          <Cell />
+          <Cell />
         </div>
         <div className="row">
-          <div></div>
-          <div></div>
-          <div></div>
+          <Cell />
+          <Cell />
+          <Cell />
         </div>
       </div>
     </>
